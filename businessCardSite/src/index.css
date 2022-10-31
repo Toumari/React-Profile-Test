@@ -2,28 +2,34 @@
     box-sizing: border-box;
 }
 
-body {
+html,body, #root, .app {
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: 'Inter', sans-serif;
     background-color: #1A1B21;
-    height: 100%
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 900px;
+    
 }
 
 .app {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;  
     align-items: center;
 }
 
 
-.profilePic {
-    min-width: 100%;
-    height: 40vh;
-    object-fit: cover;
-    margin-bottom: 30px;;
-}
+
 
 .contactSection {
     color: white;
@@ -39,7 +45,7 @@ body {
 .contact-name {
     font-size: 2rem;
     font-weight: 900;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 0;
 }
 
@@ -86,8 +92,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    max-width: 85vw;
+    justify-content: center;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -117,6 +123,7 @@ body {
     margin-top: 50px;
     margin-bottom: 10px;
     font-size: .8rem;
+    flex-shrink: 0;
     
 }
 
@@ -132,6 +139,10 @@ body {
         padding: 30px;
         margin-bottom: 0;
         margin-top: 15px;
+    }
+
+    .contact-name {
+        margin-top: .75rem;
     }
     
     .aboutMe {
@@ -150,5 +161,9 @@ body {
         margin: 0 auto;
         margin-top: 10px;
         line-height: 1.7;
+    }
+
+    .footer {
+        margin-bottom: 0;
     }
 }

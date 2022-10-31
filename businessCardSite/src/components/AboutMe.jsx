@@ -2,7 +2,7 @@ export default function AboutMe() {
   return (
     <div className="aboutMe">
       <div className="about-me-block">
-        <h1 className="about-me-title">About Me</h1>
+        <h1 className="about-me-title">About Me!</h1>
         <p className="about-me-text">
           I am a Frontend Developer with a passion for creating beautiful and
           functional websites. I am interested in learning new technologies and
