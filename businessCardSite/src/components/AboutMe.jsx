@@ -6,8 +6,11 @@ export default function AboutMe() {
         <p className="about-me-text">
           I am a Frontend Developer with a passion for creating beautiful and
           functional websites. I am interested in learning new technologies and
-          creating new projects. I am also interested in learning more about the
-          development process and how to create a better user experience.
+          creating new projects.
+        </p>
+        <p className="about-me-text">
+          I am also interested in learning more about the development process
+          and how to create a better user experience.
         </p>
       </div>
     </div>
